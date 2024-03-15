@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .content-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centered-image {
+    max-width: 100%; /* This ensures the image is responsive and fits within its container */
+    height: auto;
+    display: block; /* This makes it center within the flex container as block level */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+* {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+h1 {
+    color: rgb(255, 71, 145);
+  }
+
+a {
+    text-decoration: none;
+  }
+
+button {
+    border: none;
+    color: rgb(255, 0, 98);
+    background-color: rgb(255, 227, 238);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
